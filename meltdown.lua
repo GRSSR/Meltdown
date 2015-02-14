@@ -1,6 +1,10 @@
 local reactor = peripheral.find("BigReactors-Reactor")
 local screen = peripheral.find("monitor")
 
+if not screen then
+	screen = term.current()
+end
+
 local reactorEnergy = 0
 local maxEnergyStorage = 10000000
 local previousReactorEnergy = maxEnergyStorage
