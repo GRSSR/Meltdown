@@ -1,1 +1,13 @@
-meltdown meltdown.lua /meltdown/meltdown
+{
+	dependancies = {
+	},
+	files = {
+		{
+			install_location = "/programs/meltdown",
+			repo_location = "meltdown.lua"
+		}
+	},
+	aliases = {
+	},
+	version = "1.0.0"
+}
